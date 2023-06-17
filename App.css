@@ -1,0 +1,78 @@
+.App {
+ display: flex;
+align-items: center;
+justify-content: center;
+background-image: url("./joshua-woroniecki-UNSs8TXxQ1c-unsplash.jpg");
+background-size: cover;
+background-position: center;
+right: 40px;
+}
+/* App.css */
+
+.form-group {
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: 'Comic Neue', cursive;
+/* font-family: 'Poppins', sans-serif; */
+font-size: 1.6em;
+font-weight: bolder;
+color: darkblue;
+}
+
+input {
+  width: 100%;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.styles{
+  background-color: rgb(249, 99, 244);
+  width: 350px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding-left: 50px;
+}
+@media only screen and (max-width:400px){
+  .styles{
+    width: 90%;
+    height: 90%;
+    margin: 0 30px;
+  }
+}
+/* 
+#heading1{
+  display: flex;
+  margin-top: 0px;
+  color: white;
+  /* font-family: 'Comic Neue', cursive;
+font-family: 'Poppins', sans-serif; */
+/* font-family: 'Satisfy', cursive;
+font-size: 3.4em;
+font-weight: bolder;
+} */ */
+.App {
+  display: flex;
+  flex-direction: row;
+}
+
+#heading1 {
+  order: -1;
+  font-family: 'Comic Neue', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive;
+font-size: 3.4em;
+font-weight: bolder;
+color: green;
+}
+
+/* .styles { */
+  /* Add your styles for the div here */
+/* } */

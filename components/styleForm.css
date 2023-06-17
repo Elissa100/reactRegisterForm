@@ -1,0 +1,54 @@
+input[type="text"],input[type="date"],input[type="email"],input[type="password"],input[type="number"]{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    width: 250px;
+    height: 28px;
+    padding: 15px;
+    padding-bottom: 28px;
+    margin: 10px 0px;
+}
+
+button{
+border: 1px solid black;
+border-radius: 5px;
+font-family: 'Poppins', sans-serif;
+width: 200px;
+height: 28px;
+padding: 15px;
+padding-bottom: 28px;
+margin: 10px 0px;
+background-color: blue;
+color: white;
+font-size: 1.2em;
+font-weight: bolder;
+}
+button:hover{
+    border: 1px solid rgb(53, 10, 246);
+border-radius: 5px;
+font-family: 'Poppins', sans-serif;
+width: 200px;
+height: 28px;
+padding: 15px;
+padding-bottom: 28px;
+margin: 10px 0px;
+background-color: black;
+color: white;
+font-size: 1.2em;
+}
+
+span{
+    font-size: 10px;
+    color: red;
+    padding-top: 10px;
+    display: none;
+}
+/* input:invalid ~ span{
+display: block;
+} */
+input:invalid[focused="true"] ~ span{
+    border: 1px solid red;
+}
+input:invalid[focused="true"] ~ span{
+display: block;
+}
